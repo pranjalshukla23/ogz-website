@@ -7,8 +7,8 @@ export default function Header() {
   const [isShowMenu, setIsShowMenu] = useState(false);
   return (
     <div className='flex justify-between lg:justify-around items-center p-4'>
-      <div className='logo-container flex justify-start items-center text-2xl md:text-6xl font-bold text-amber-600 gap-x-4 '>
-        <div className='logo relative bg-orange-400 rounded-full p-4 w-12 h-12 md:w-24 md:h-24'>
+      <div className='logo-container flex justify-start items-center text-2xl lg:text-6xl font-bold text-amber-600 gap-x-4 '>
+        <div className='logo relative bg-orange-400 rounded-full p-4 w-12 h-12'>
           <Image src={"/images/logo.svg"} alt='logo' fill={true} />
         </div>
         <h1>OGZ</h1>
