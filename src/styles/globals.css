@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +24,12 @@ body {
   border-radius: 9px;
 }
 
+.gridItem {
+  background: linear-gradient(103.93deg, #23130c -2.28%, #160b0a 132.97%);
+  border-radius: 5%;
+  padding: 10px;
+}
+
 @layer components {
   .btn {
     @apply px-8 py-2 text-black font-bold bg-orange-400 cursor-pointer rounded-md;
@@ -39,6 +47,16 @@ body {
 
 .slide {
   width: 100%;
+}
+
+#swiper-color {
+  background-color: #382422;
+  padding: 10px;
+}
+
+#swiper-color2 {
+  background-color: inherit;
+  padding: 10px;
 }
 
 #swiper-color .swiper-button-next {

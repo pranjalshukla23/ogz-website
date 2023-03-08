@@ -6,6 +6,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Exchange from "@/components/Exchange";
 import Slider from "@/components/Slider";
+import Services from "@/components/Services";
+import Statistics from "@/components/Statistics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,8 @@ export default function Home() {
       <Hero />
       <Exchange />
       <Slider />
+      <Services />
+      {/* <Statistics /> */}
     </>
   );
 }

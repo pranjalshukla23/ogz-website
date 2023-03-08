@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
@@ -13,33 +12,33 @@ import styles from "@/styles/Home.module.css";
 
 export default function Slider() {
   return (
-    <div className='w-full md:w-2/3 mx-auto'>
+    <div className='w-full md:w-3/4 mx-auto'>
       <Swiper
         id='swiper-color'
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={100}
-        slidesPerView={3}
+        slidesPerView={4}
         navigation
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide>
-          <Image src='/images/mtv.png' alt='fox' width='100' height='150' />
+          <Image src='/images/mtv.svg' alt='fox' width='100' height='150' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src='/images/yahoo.png' alt='fox' width='100' height='400' />
+          <Image src='/images/yahoo.svg' alt='fox' width='100' height='400' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src='/images/fox.png' alt='fox' width='100' height='150' />
+          <Image src='/images/fox.svg' alt='fox' width='100' height='150' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src='/images/mtv.png' alt='fox' width='100' height='150' />
+          <Image src='/images/mtv.svg' alt='fox' width='100' height='150' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src='/images/yahoo.png' alt='fox' width='100' height='150' />
+          <Image src='/images/yahoo.svg' alt='fox' width='100' height='150' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src='/images/fox.png' alt='fox' width='100' height='150' />
+          <Image src='/images/fox.svg' alt='fox' width='100' height='150' />
         </SwiperSlide>
       </Swiper>
       <div className='flex justify-center'>

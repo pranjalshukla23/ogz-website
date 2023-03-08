@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className='hero flex flex-col justify-start items-center w-screen md:h-screen md:flex-row-reverse md:justify-between'>
+    <div className='hero flex flex-col justify-start items-center w-4/5 md:h-96 md:flex-row-reverse md:justify-between mx-auto mb-24'>
       {/* image container */}
       <div className='flex justify-center w-full md:w-1/2 h-52 max-h-screen md:h-full'>
-        <div className=" w-1/2 md:w-full bg-[url('/images/heroImg.png')] bg-contain bg-no-repeat bg-center"></div>
+        <div className=" w-1/2 md:w-full bg-[url('/images/heroImg.png')] bg-contain bg-no-repeat bg-center scale-150"></div>
       </div>
       {/* text container */}
       <div className=' w-full h-1/2 md:h-full flex justify-center'>

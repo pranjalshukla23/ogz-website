@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       colors: {
         brown: "#1E1E1E",
+        creamy: "#36221B",
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
