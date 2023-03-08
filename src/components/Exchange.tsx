@@ -21,12 +21,10 @@ export default function Exchange() {
   };
 
   return (
-    <div className=' w-full flex flex-col-reverse md:flex-row justify-start items-center mx-auto p-6 border-2 border-red-500'>
+    <div className=' w-full flex flex-col-reverse md:flex-row justify-start items-center mx-auto p-6 mb-12'>
       {/* exchange form */}
-      <div className='flex justify-center items-center w-full md:w-1/2 h-full p-4'>
-        <div className='Uniswap'>
-          <SwapWidget theme={theme} />
-        </div>
+      <div className='flex justify-center items-center w-full md:w-1/2 h-full'>
+        <SwapWidget theme={theme} />
       </div>
       {/* right side  */}
       <div className='w-full md:w-1/2 flex flex-col justify-center items-start md:items-start gap-y-8 p-4'>

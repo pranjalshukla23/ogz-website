@@ -27,3 +27,34 @@ body {
     @apply px-8 py-2 text-black font-bold bg-orange-400 cursor-pointer rounded-md;
   }
 }
+
+.swiper-button-next {
+  color: red;
+}
+
+.swiper-container {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.slide {
+  width: 100%;
+}
+
+#swiper-color .swiper-button-next {
+  color: white;
+}
+#swiper-color .swiper-button-prev {
+  color: white;
+}
+
+/* #swiper-replace .swiper-button-next {
+  background-image: url(./next.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+} */
+
+#swiper-replace .swiper-button-next::after {
+  display: none;
+}
