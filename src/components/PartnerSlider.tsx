@@ -44,7 +44,7 @@ export default function PartnerSlider() {
   }, [width, height]);
 
   return (
-    <div className=' w-3/4 mx-auto'>
+    <div className='w-full md:w-4/5 mx-auto'>
       <Slider {...settings} className='max-h-20'>
         <div>
           <Image src='/images/mtv.svg' alt='mtv' width='100' height='400' />

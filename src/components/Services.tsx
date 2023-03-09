@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className='grid grid-cols-1 gap-8 md:grid-cols-2  justify-center items-center w-full md:w-3/4 mx-auto bg-stone-900 p-8'>
+    <div className='grid grid-cols-1 gap-8 md:grid-cols-2  justify-center items-center w-full md:w-4/5 mx-auto bg-stone-900 p-8'>
       {/* item 1 */}
       <div className=' flex flex-col justify-center items-start gap-4'>
         <h1 className='text-xl text-orange-400 font-bold'>Our Core Values</h1>

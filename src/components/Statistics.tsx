@@ -26,7 +26,7 @@ export default function Statistics() {
   }, [width, height]);
 
   return (
-    <div className='w-full md:w-3/4 mx-auto text-orange-400 p-2 my-24 '>
+    <div className='w-full md:w-4/5 mx-auto text-orange-400 p-2 my-24 '>
       <h3>Updates</h3>
       <h1 className='text-2xl md:text-3xl font-bold'>OGz News</h1>
 
@@ -46,7 +46,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container  relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative  w-full md:w-11/12 h-1/2 md:h-full'>
               <Image
                 src='/images/update1.svg'
                 alt='update1'
@@ -73,7 +73,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container  relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative  w-full md:w-11/12 h-1/2 md:h-full'>
               <Image
                 src='/images/update2.svg'
                 alt='update2'

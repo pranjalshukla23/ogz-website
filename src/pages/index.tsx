@@ -8,6 +8,7 @@ import Exchange from "@/components/Exchange";
 import PartnerSlider from "@/components/PartnerSlider";
 import Services from "@/components/Services";
 import Statistics from "@/components/Statistics";
+import Community from "@/components/Community";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
       <PartnerSlider />
       <Services />
       <Statistics />
+      <Community />
     </>
   );
 }
