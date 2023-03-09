@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className='grid grid-cols-1 gap-4 md:grid-cols-2  justify-center items-center w-full md:w-3/4 mx-auto bg-stone-900 p-8'>
+    <div className='grid grid-cols-1 gap-8 md:grid-cols-2  justify-center items-center w-full md:w-3/4 mx-auto bg-stone-900 p-8'>
+      {/* item 1 */}
       <div className=' flex flex-col justify-center items-start gap-4'>
         <h1 className='text-xl text-orange-400 font-bold'>Our Core Values</h1>
         <p>
@@ -13,8 +14,10 @@ export default function Services() {
           components of the OGZ project.
         </p>
       </div>
-      <div className='gridItem  flex flex-col justify-center items-start gap-4'>
-        <div className='bg-creamy rounded-md p-4'>
+
+      {/* item 2 */}
+      <div className='gridItem  flex flex-col justify-start items-start gap-4'>
+        <div className='bg-creamy rounded-md p-4 -translate-y-6'>
           <Image
             src='/images/personIcon.svg'
             alt='person'
@@ -34,8 +37,10 @@ export default function Services() {
           Join Community
         </button>
       </div>
-      <div className='gridItem flex flex-col justify-center items-start gap-4'>
-        <div className='bg-creamy rounded-md p-4'>
+
+      {/* item 3 */}
+      <div className='gridItem flex flex-col justify-start items-start gap-4'>
+        <div className='bg-creamy rounded-md p-4  -translate-y-6'>
           <Image
             src='/images/utilityIcon.svg'
             alt='utility'
@@ -53,8 +58,9 @@ export default function Services() {
         </p>
         <button className='btn bg-orange-400 text-black w-52'>Utilities</button>
       </div>
-      <div className='gridItem flex flex-col justify-center items-start gap-4'>
-        <div className='bg-creamy rounded-md p-4'>
+      {/* item 4 */}
+      <div className='gridItem flex flex-col justify-start items-start gap-4'>
+        <div className='bg-creamy rounded-md p-4  -translate-y-6'>
           <Image
             src='/images/loveIcon.svg'
             alt='utility'
