@@ -12,6 +12,9 @@ import Community from "@/components/Community";
 import About from "@/components/About";
 import Security from "@/components/Security";
 import Membership from "@/components/Membership";
+import Resources from "@/components/Footer";
+import Footer from "@/components/Footer";
+import TimeLine from "@/components/TimeLine";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +31,8 @@ export default function Home() {
       <About />
       <Security />
       <Membership />
+      <Footer />
+      <TimeLine />
     </>
   );
 }

@@ -44,30 +44,30 @@ export default function PartnerSlider() {
   }, [width, height]);
 
   return (
-    <div className='w-full md:w-4/5 mx-auto'>
-      <Slider {...settings} className='max-h-20'>
+    <div className="w-full md:w-4/5 mx-auto">
+      <Slider {...settings} className="max-h-20">
         <div>
-          <Image src='/images/mtv.svg' alt='mtv' width='100' height='400' />
+          <Image src="/images/mtv.svg" alt="mtv" width="100" height="400" />
         </div>
         <div>
-          <Image src='/images/yahoo.svg' alt='mtv' width='100' height='400' />
+          <Image src="/images/yahoo.svg" alt="mtv" width="100" height="400" />
         </div>
         <div>
-          <Image src='/images/fox.svg' alt='mtv' width='100' height='400' />
+          <Image src="/images/fox.svg" alt="mtv" width="100" height="400" />
         </div>
         <div>
           <Image
-            src='/images/coindesk.svg'
-            alt='mtv'
-            width='100'
-            height='400'
+            src="/images/coindesk.svg"
+            alt="mtv"
+            width="100"
+            height="400"
           />
         </div>
         <div>
-          <Image src='/images/msnbc.svg' alt='mtv' width='100' height='400' />
+          <Image src="/images/msnbc.svg" alt="mtv" width="100" height="400" />
         </div>
         <div>
-          <Image src='/images/mtv.svg' alt='mtv' width='100' height='400' />
+          <Image src="/images/mtv.svg" alt="mtv" width="100" height="400" />
         </div>
       </Slider>
     </div>
