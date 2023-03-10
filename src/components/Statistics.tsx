@@ -46,7 +46,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update1.svg'
                 alt='update1'
@@ -73,7 +73,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update2.svg'
                 alt='update2'
@@ -100,7 +100,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container  relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update3.svg'
                 alt='update1'
@@ -127,7 +127,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update3.svg'
                 alt='update1'
@@ -154,7 +154,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container  relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update3.svg'
                 alt='update1'
@@ -181,7 +181,7 @@ export default function Statistics() {
            md:h-[187px] flex flex-col md:flex-row gap-4'
           >
             {/* image container */}
-            <div className='image-container  relative  w-full md:w-11/12 h-1/2 md:h-full'>
+            <div className='image-container relative w-full h-1/2 md:h-full'>
               <Image
                 src='/images/update3.svg'
                 alt='update1'

@@ -1,13 +1,14 @@
 import Image from "next/image";
+import { FaShareSquare } from "react-icons/fa";
 
-export default function Hero() {
+export default function Security() {
   return (
     <div className='hero flex flex-col justify-start items-center w-4/5 md:flex-row-reverse md:justify-between mx-auto mb-24 gap-12 md:gap-2 pb-4 md:pb-2'>
       {/* image container */}
       <div className='flex justify-center w-full md:w-1/2 h-52 md:h-96  relative'>
         {/* image will cover the entire container */}
         <Image
-          src='/images/heroImg.svg'
+          src='/images/shieldIcon.svg'
           alt='hero'
           fill
           className='scale-150 md:scale-125'
@@ -20,16 +21,15 @@ export default function Hero() {
          items-start justify-start md:justify-center gap-4'
         >
           <h1 className='text-2xl lg:text-4xl text-orange-400 font-bold'>
-            OGZ coin, a coin for <br />
-            the community
+            Security - OGZ Audits
           </h1>
           <p className='text-start md:w-full'>
-            OGZ is the utility token of the OGZ ecosystem. This coin is sure to
-            attract investors who are looking for a fun and profitable
-            investment opportunity. So saddle up, partner, and join the OGZ
-            community today and become a real gang member!
+            Security is everything and we will get help from the best security
+            professionals in the world to ensure the safety of our ecosystem.
           </p>
-          <button className='btn mx-auto md:mx-0'>Read White Paper</button>
+          <button className='btn mx-auto md:mx-0'>
+            OGZ by Certik <FaShareSquare className='inline' />
+          </button>
         </div>
       </div>
     </div>

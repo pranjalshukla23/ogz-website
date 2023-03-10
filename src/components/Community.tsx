@@ -27,7 +27,7 @@ export default function Community() {
         {/* item1 */}
         <div className=' flex flex-row w-full h-40 gap-4'>
           {/* left side */}
-          <div className=' h-full w-1/3 flex justify-center items-start'>
+          <div className='flex justify-center items-start'>
             {/* image container */}
             <Image
               src='/images/twitter.svg'
@@ -47,9 +47,9 @@ export default function Community() {
         </div>
 
         {/* item2 */}
-        <div className='flex flex-row w-full h-40'>
+        <div className=' flex flex-row w-full h-40 gap-4'>
           {/* left side */}
-          <div className=' h-full w-1/3 flex justify-center items-start'>
+          <div className='flex justify-center items-start'>
             {/* image container */}
             <Image
               src='/images/insta.svg'
@@ -69,9 +69,9 @@ export default function Community() {
         </div>
 
         {/* item3 */}
-        <div className=' flex flex-row w-full h-40'>
+        <div className=' flex flex-row w-full h-40 gap-4'>
           {/* left side */}
-          <div className=' h-full w-1/3 flex justify-center items-start'>
+          <div className='flex justify-center items-start'>
             {/* image container */}
             <Image
               src='/images/youtube.svg'
@@ -104,9 +104,9 @@ export default function Community() {
         >
           <SwiperSlide>
             {/* item1 */}
-            <div className='flex flex-row w-[500px] h-36 gap-8 '>
+            <div className='flex flex-row w-[500px] h-36 gap-8'>
               {/* left side */}
-              <div className=' h-full w-1/3 flex justify-center items-start'>
+              <div className='flex justify-center items-start'>
                 {/* image container */}
                 <Image
                   src='/images/twitter.svg'
@@ -130,7 +130,7 @@ export default function Community() {
             {/* item2 */}
             <div className='flex flex-row w-[500px] h-36 gap-8 '>
               {/* left side */}
-              <div className=' h-full w-1/3 flex justify-center items-start'>
+              <div className='flex justify-center items-start'>
                 {/* image container */}
                 <Image
                   src='/images/insta.svg'
@@ -154,7 +154,7 @@ export default function Community() {
             {/* item1 */}
             <div className='flex flex-row w-[500px] h-36 gap-8 '>
               {/* left side */}
-              <div className=' h-full w-1/3 flex justify-center items-start'>
+              <div className='flex justify-center items-start'>
                 {/* image container */}
                 <Image
                   src='/images/youtube.svg'
