@@ -1,5 +1,5 @@
 import { FaShareSquare, FaTelegramPlane } from "react-icons/fa";
-import { MdArrowDropDown } from "react-icons/Md";
+// import { MdArrowDropDown } from "react-icons/Md";
 import Image from "next/image";
 export default function TimeLine() {
   return (
@@ -13,11 +13,11 @@ export default function TimeLine() {
         </div>
         <div className="controls w-full md:w-1/2  flex flex-col md:flex-row gap-2 md:gap-4">
           <button className=" block w-full bg-amber-900 my-4 rounded p-2">
-            Sort <MdArrowDropDown className="inline text-3xl float-right" />
+            Sort 
           </button>
           <button className=" block w-full bg-amber-900 my-4 rounded p-2">
             Filter{" "}
-            <MdArrowDropDown className="inline text-3xl float-right" />
+           
           </button>
         </div>
       </div>
