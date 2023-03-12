@@ -21,17 +21,17 @@ export default function Exchange() {
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-start items-center mx-auto p-6 mb-12 w-4/5">
+    <div className='flex flex-col-reverse md:flex-row justify-start items-center mx-auto mb-12 w-11/12  gap-6 md:gap-2'>
       {/* exchange form */}
-      <div className="flex justify-center items-center w-full md:w-1/2 h-full">
+      <div className='flex justify-center items-center w-full md:w-1/2 h-full'>
         <SwapWidget theme={theme} />
       </div>
       {/* right side  */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-start md:items-start gap-y-8 p-4">
-        <h1 className="text-2xl md:text-4xl text-orange-500 font-bold leading-wide tracking-wide">
+      <div className='w-full md:w-1/2 flex flex-col justify-center items-start md:items-start gap-y-4 '>
+        <h1 className='text-2xl md:text-2xl text-orange-500 font-bold leading-wide tracking-wide'>
           Buy some OGZ coin right now
         </h1>
-        <p className="w-full md:w-3/4 text-start">
+        <p className='w-full md:w-3/4 text-start'>
           Don &apos; t lose the opportunity to buy some OGZ coins while you can.
           Our strong gang will overcome any challenge and we will dominate this
           industry no matter what. OGZ is backed by the community and for this

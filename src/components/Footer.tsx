@@ -5,7 +5,7 @@ import SocialMedia from "./SocialMedia";
 
 export default function Footer() {
   return (
-    <div className='w-full md:w-4/5 mx-auto flex flex-col md:flex-row h-98 gap-4 px-4 mb-24'>
+    <div className='w-11/12 mx-auto flex flex-col md:flex-row h-98 gap-8'>
       {/* left side footer */}
       <Resource />
       {/* right side footer */}

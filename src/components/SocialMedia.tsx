@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SocialMedia() {
   return (
-    <div className='w-full md:w-1/2 hero flex flex-col justify-center md:justify-start items-center gap-8 p-4'>
+    <div className='w-full md:w-1/2 hero flex flex-col justify-center md:justify-start items-center gap-8 p-8'>
       {/* gang */}
       <div className='flex flex-col md:flex-row justify-center md:justify-around items-start md:items-center  gap-6 p-4 bg-creamy w-full'>
         <h1 className='text-lg font-bold'>Join our gang</h1>
@@ -29,7 +29,7 @@ export default function SocialMedia() {
             <input
               type='text'
               placeholder='0xCF0C...6A2E'
-              className='px-2 py-2 rounded-md bg-inherit text-gray-400 border-2 w-1/2'
+              className='px-2 py-2 rounded-md bg-inherit text-gray-400  w-1/2'
             />
             <FaShareSquare className='inline' />
           </div>

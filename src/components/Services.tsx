@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className='grid grid-cols-1 gap-12 md:grid-cols-2  justify-center items-center w-full md:w-4/5 mx-auto bg-stone-900 p-8 '>
+    <div className='grid grid-cols-1 gap-12 md:gap-8 md:grid-cols-2  justify-center items-center w-11/12 mx-auto bg-stone-900 p-2 md:p-8 '>
       {/* item 1 */}
-      <div className=' flex flex-col justify-center items-start gap-4'>
+      <div className=' flex flex-col justify-start items-start gap-4'>
         <h1 className='text-xl text-orange-400 font-bold'>Our Core Values</h1>
         <p>
           Here you can see some of our core values, we are always trying to
@@ -16,7 +16,7 @@ export default function Services() {
       </div>
 
       {/* item 2 */}
-      <div className='gridItem  flex flex-col justify-start items-start gap-2 p-8'>
+      <div className='gridItem  flex flex-col justify-start items-start gap-4 p-8'>
         <div className='bg-creamy rounded-md p-4 -translate-y-12'>
           <Image
             src='/images/personIcon.svg'

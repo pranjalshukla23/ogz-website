@@ -16,29 +16,24 @@ import { useEffect, useState } from "react";
 export default function Statistics() {
   const [width, height] = useDeviceSize();
   const [slidesPerView, setSlidesPerView] = useState(2);
-  const [space, setSpace] = useState(0);
+  const [space, setSpace] = useState(3);
 
   return (
-    <div className='w-full md:w-4/5 mx-auto text-orange-400 p-2 my-24 '>
+    <div className='w-11/12 mx-auto text-orange-400 p-2 my-24'>
       <h3>Updates</h3>
       <h1 className='text-2xl md:text-3xl font-bold'>OGz News</h1>
 
       <Swiper
         id='swiper-color'
-        style={{
-          "--swiper-navigation-size": "25px",
-        }}
-        // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={width < 1440 ? 50 : 50}
-        slidesPerView={width < 1440 ? 1 : slidesPerView}
-        navigation
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+        slidesPerView={2}
+        spaceBetween={width < 768 ? 100 : width < 1024 ? 150 : 100}
+        navigation={width < 768 ? false : true}
+        modules={[Pagination, Navigation]}
+        className='mySwiper'
       >
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}
@@ -65,7 +60,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}
@@ -92,7 +87,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}
@@ -119,7 +114,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}
@@ -146,7 +141,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}
@@ -173,7 +168,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-card w-48 md:w-[394px] h-80 
+            className='hero2 w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl border-2 border-zinc-800'
           >
             {/* image container */}

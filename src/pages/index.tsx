@@ -15,24 +15,26 @@ import Membership from "@/components/Membership";
 import Resources from "@/components/Footer";
 import Footer from "@/components/Footer";
 import TimeLine from "@/components/TimeLine";
+import Layout from "@/components/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Exchange />
-      <PartnerSlider />
-      <Services />
-      <Statistics />
-      <Community />
-      <About />
-      <Security />
-      <TimeLine />
-      <Membership />
-      <Footer />
-    </>
+    <Layout>
+      <div className='flex flex-col justify-center items-center'>
+        <Hero />
+        <Exchange />
+        <PartnerSlider />
+        <Services />
+        <Statistics />
+        <Community />
+        <About />
+        <Security />
+        <TimeLine />
+        <Membership />
+        <Footer />
+      </div>
+    </Layout>
   );
 }

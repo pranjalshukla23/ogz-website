@@ -7,9 +7,14 @@ export default function Header() {
   const [isShowMenu, setIsShowMenu] = useState(false);
   return (
     <div className='flex justify-between lg:justify-around items-center p-4 mb-24'>
-      <div className='logo-container flex justify-start items-center text-2xl lg:text-6xl font-bold text-amber-600 gap-x-4 '>
-        <div className='logo relative bg-orange-400 rounded-full p-4 w-12 h-12'>
-          <Image src={"/images/logo.svg"} alt='logo' fill={true} />
+      <div className='logo-container flex justify-start items-center text-4xl font-extrabold text-amber-600 gap-x-4 '>
+        <div className='logo relative bg-orange-400 rounded-full p-4 w-16 h-16'>
+          <Image
+            src={"/images/logo.svg"}
+            alt='logo'
+            fill={true}
+            className='object-contain py-2'
+          />
         </div>
         <h1>OGZ</h1>
       </div>
@@ -38,7 +43,7 @@ export default function Header() {
           className='border-none text-3xl'
           onClick={() => setIsShowMenu(!isShowMenu)}
         >
-          <AiOutlineMenu />
+          <AiOutlineMenu className='text-orange-500' />
         </button>
         <div
           className={`menu ${

@@ -15,10 +15,10 @@ import { useEffect, useState } from "react";
 export default function Community() {
   const [width, height] = useDeviceSize();
   const [slidesPerView, setSlidesPerView] = useState(2);
-  const [space, setSpace] = useState(0);
+  const [space, setSpace] = useState(3);
 
   return (
-    <div className='hero w-full md:w-4/5 mx-0 md:mx-auto text-orange-400  my-24 flex flex-col justify-start items-start  gap-4 p-4'>
+    <div className='hero2 w-11/12 mx-auto text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 p-4'>
       <h1 className='text-2xl md:text-3xl font-bold w-3/4 md:w-full'>
         Join the OGZ community
       </h1>
@@ -26,7 +26,7 @@ export default function Community() {
       {/* mobile  */}
       <div className='flex md:hidden flex-col justify-between gap-4  w-full'>
         {/* item1 */}
-        <div className='hero flex flex-row translate-x-6 h-40 gap-4'>
+        <div className='hero3 flex flex-row translate-x-6 h-40 gap-4'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -48,7 +48,7 @@ export default function Community() {
         </div>
 
         {/* item2 */}
-        <div className='hero flex flex-row translate-x-6 h-40 gap-4'>
+        <div className='hero3 flex flex-row translate-x-6 h-40 gap-4'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -70,7 +70,7 @@ export default function Community() {
         </div>
 
         {/* item3 */}
-        <div className='hero flex flex-row translate-x-6 h-40 gap-4'>
+        <div className='hero3 flex flex-row translate-x-6 h-40 gap-4'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -96,20 +96,15 @@ export default function Community() {
       <div className='hidden md:block  w-full p-6'>
         <Swiper
           id='swiper-color'
-          style={{
-            "--swiper-navigation-size": "25px",
-          }}
-          // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={width < 1440 ? 50 : 50}
-          slidesPerView={width < 1440 ? 1 : slidesPerView}
-          navigation
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          slidesPerView={2}
+          spaceBetween={width < 768 ? 100 : width < 1024 ? 150 : 100}
+          navigation={width < 768 ? false : true}
+          modules={[Pagination, Navigation]}
+          className='mySwiper'
         >
           <SwiperSlide>
             {/* item1 */}
-            <div className='hero flex flex-row w-[500px] h-36 gap-8 ml-8'>
+            <div className='hero3 flex flex-row w-[500px] h-36 gap-8 ml-8'>
               {/* left side */}
               <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
                 {/* image container */}
@@ -133,7 +128,7 @@ export default function Community() {
 
           <SwiperSlide>
             {/* item2 */}
-            <div className='hero flex flex-row w-[500px] h-36 gap-8 ml-8'>
+            <div className='hero3 flex flex-row w-[500px] h-36 gap-8 ml-8'>
               {/* left side */}
               <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
                 {/* image container */}
@@ -157,7 +152,7 @@ export default function Community() {
 
           <SwiperSlide>
             {/* item1 */}
-            <div className='hero flex flex-row w-[500px] h-36 gap-8 ml-8'>
+            <div className='hero3 flex flex-row w-[500px] h-36 gap-8 ml-8'>
               {/* left side */}
               <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
                 {/* image container */}
