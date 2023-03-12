@@ -3,7 +3,7 @@ import { FaShareSquare, FaTelegramPlane } from "react-icons/fa";
 import Image from "next/image";
 export default function TimeLine() {
   return (
-    <div className="w-full mx-auto p-4 mb-24">
+    <div className="hero w-4/5 mx-auto p-4 mb-24">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
         <div className="heading ">
           <h3 className="text-orange-500">Timeline</h3>

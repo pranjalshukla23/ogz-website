@@ -24,11 +24,23 @@ body {
   border-radius: 9px;
 }
 
+.grid {
+  background: linear-gradient(92.91deg, #160b0a -0.59%, #382422 104.43%);
+}
+
 .gridItem {
   background: linear-gradient(103.93deg, #23130c -2.28%, #160b0a 132.97%);
   border-radius: 5%;
-  padding: 10px;
+  padding: 10px 40px;
   height: 400px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.card2 {
+  background: linear-gradient(103.93deg, #23130c -2.28%, #160b0a 132.97%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -50,10 +62,11 @@ body {
 #swiper-color .swiper-button-next,
 .swiper-button-prev {
   color: white;
-  background-color: #23130c;
+  background-color: #36221b;
   border-radius: 50%;
   font-size: 8px;
   padding: 30px;
+  height: 4px;
   text-align: center;
 }
 #swiper-color .swiper-button-prev {

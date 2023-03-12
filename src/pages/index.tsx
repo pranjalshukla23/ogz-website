@@ -30,9 +30,9 @@ export default function Home() {
       <Community />
       <About />
       <Security />
+      <TimeLine />
       <Membership />
       <Footer />
-      <TimeLine />
     </>
   );
 }

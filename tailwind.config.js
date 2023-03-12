@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         brown: "#1E1E1E",
         creamy: "#36221B",
+        bgBrown: "#2D1912",
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
