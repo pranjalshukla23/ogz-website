@@ -8,7 +8,7 @@ export default function SocialMedia() {
       <div className='flex flex-col md:flex-row justify-center md:justify-around items-start md:items-center  gap-6 p-4 card w-full'>
         <h1 className='text-lg font-bold'>Join our gang</h1>
         <button className='btn p-2 md:p-2 w-52'>
-          Join our Telegram <FaTelegramPlane className='inline' />
+          <FaTelegramPlane className='inline' /> Join our Telegram
         </button>
       </div>
       {/* contracts */}
