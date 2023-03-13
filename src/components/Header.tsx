@@ -6,9 +6,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 export default function Header() {
   const [isShowMenu, setIsShowMenu] = useState(false);
   return (
-    <div className='flex justify-between lg:justify-around items-center p-4 mb-24'>
-      <div className='logo-container flex justify-start items-center text-4xl font-extrabold text-amber-600 gap-x-4 '>
-        <div className='logo relative bg-orange-400 rounded-full p-4 w-16 h-16'>
+    <div className='flex justify-between lg:justify-around items-center p-4 gap-4 mb-24'>
+      <div className='logo-container flex justify-start items-center text-5xl font-extrabold text-orange gap-x-4 '>
+        <div className='logo relative bg-orange rounded-full p-4 w-16 h-16'>
           <Image
             src={"/images/logo.svg"}
             alt='logo'
@@ -20,8 +20,8 @@ export default function Header() {
       </div>
 
       {/* desktop menu */}
-      <div className='menu hidden lg:flex  text-center items-center p-66 '>
-        <ul className='flex justify-between items-center gap-x-12 text-xs lg:text-lg'>
+      <div className='menu hidden lg:flex  text-center items-center  '>
+        <ul className='flex justify-between items-center gap-x-16 text-xs lg:text-lg'>
           <li>
             <Link href='/'>Home</Link>
           </li>
@@ -32,7 +32,7 @@ export default function Header() {
             <Link href='/'>Afiliate Program</Link>
           </li>
           <li>
-            <button className='btn'>Connect Wallet</button>
+            <button className='btn bg-orangeLight'>Connect Wallet</button>
           </li>
         </ul>
       </div>

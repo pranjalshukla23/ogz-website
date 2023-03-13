@@ -62,7 +62,7 @@ body {
 
 @layer components {
   .btn {
-    @apply px-8 py-2 text-black font-bold bg-orange-400 cursor-pointer rounded-md;
+    @apply px-8 py-2 text-black font-bold bg-orangeLight cursor-pointer rounded-md;
   }
 }
 

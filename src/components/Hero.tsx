@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className='hero flex flex-col justify-start items-center w-11/12 md:flex-row-reverse md:justify-between my-8 gap-12 md:gap-2 pb-4'>
+    <div className='hero flex flex-col justify-start items-center w-4/5 md:flex-row-reverse md:justify-between my-8 gap-12 md:gap-2 pb-4'>
       {/* image container */}
       <div className='flex justify-center w-full md:w-1/2 h-52 md:h-96 relative'>
         {/* image will cover the entire container */}
@@ -19,7 +19,7 @@ export default function Hero() {
           className=' w-full flex flex-col 
          items-start justify-start md:justify-center gap-4'
         >
-          <h1 className='text-2xl md:text-3xl lg:text-4xl text-orange-400 font-extrabold'>
+          <h1 className='text-2xl  md:text-4xl text-orange-400 font-extrabold text-orangeLight'>
             OGZ coin, a coin for the community
           </h1>
           <p className='text-start'>

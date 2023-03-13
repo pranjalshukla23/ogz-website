@@ -23,7 +23,7 @@ export default function Exchange() {
   return (
     <div className='flex flex-col-reverse md:flex-row justify-start items-center mx-auto mb-12 w-11/12  gap-6 md:gap-2'>
       {/* exchange form */}
-      <div className='flex justify-center items-center w-full md:w-1/2 h-full'>
+      <div className='flex justify-start items-center w-full md:w-1/2 h-full'>
         <SwapWidget theme={theme} />
       </div>
       {/* right side  */}
