@@ -246,7 +246,7 @@ export default function TimeLine() {
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4  rounded shadow">
-                      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-2 border border-white dark:border-amber-900 dark:bg-black"></div>
+                      
                       <div className="flex items-start justify-between gap-4">
                         <Image
                           src="/images/timeline3.svg"
@@ -293,7 +293,7 @@ export default function TimeLine() {
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4  rounded shadow">
-                      <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-2 border border-white dark:border-amber-900 dark:bg-black"></div>
+                      
                     </div>
                   </div>
                 </div>
