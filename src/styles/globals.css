@@ -18,6 +18,8 @@ body {
 
 body {
   background: linear-gradient(103.93deg, #0c0100 -2.28%, #200c02 132.97%);
+  background-position: left top;
+  background-repeat: repeat;
   color: #fff;
 }
 
