@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SocialMedia() {
   return (
-    <div className='w-full md:w-3/4 card2 flex flex-col justify-center md:justify-start items-center gap-8 p-3 md:p-8'>
+    <div className='w-full md:w-3/4 card flex flex-col justify-center md:justify-start items-center gap-8 p-3 md:p-8'>
       {/* gang */}
       <div className='flex flex-col md:flex-row justify-center md:justify-around items-start md:items-center  gap-6 p-4 card w-full'>
         <h1 className='text-lg font-bold'>Join our gang</h1>

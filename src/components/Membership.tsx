@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Membership() {
   return (
-    <div className='w-4/5 card2 text-white flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 mb-24 p-8 rounded-md'>
+    <div className='w-4/5 card text-white flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 mb-24 p-8 rounded-md'>
       {/* image container */}
       <div className=' relative flex justify-center '>
         <Image

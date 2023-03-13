@@ -34,7 +34,7 @@ export default function Statistics() {
         <SwiperSlide>
           <div
             className='w-48 md:w-[394px] h-80 
-           md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl bg- card'
+           md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl card'
           >
             {/* image container */}
             <div className='image-container relative w-full h-1/2 md:h-full'>
@@ -60,7 +60,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg- card w-48 md:w-[394px] h-80 
+            className='card w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl'
           >
             {/* image container */}
@@ -87,7 +87,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg- card w-48 md:w-[394px] h-80 
+            className='card w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl'
           >
             {/* image container */}
@@ -114,7 +114,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg- card w-48 md:w-[394px] h-80 
+            className='card w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl'
           >
             {/* image container */}
@@ -141,7 +141,7 @@ export default function Statistics() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg- card w-48 md:w-[394px] h-80 
+            className=' card w-48 md:w-[394px] h-80 
            md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl'
           >
             {/* image container */}

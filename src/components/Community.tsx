@@ -18,7 +18,7 @@ export default function Community() {
   const [space, setSpace] = useState(3);
 
   return (
-    <div className='bg-bgBrown4 w-4/5 mx-auto text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 p-4  text-orangeLight shadow-2xl'>
+    <div className='card w-4/5 mx-auto text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 p-4  text-orangeLight shadow-2xl'>
       <h1 className='text-2xl md:text-3xl font-bold w-3/4 md:w-full p-6'>
         Join the OGZ community
       </h1>

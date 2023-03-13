@@ -27,11 +27,11 @@ body {
 }
 
 .grid {
-  background: linear-gradient(92.91deg, #160b0a -0.59%, #382422 104.43%);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .gridItem {
-  background: linear-gradient(103.93deg, #23130c -2.28%, #160b0a 132.97%);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 5%;
   padding: 10px 40px;
   height: 450px;

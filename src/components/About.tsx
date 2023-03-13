@@ -45,7 +45,7 @@ export default function About() {
       >
         <SwiperSlide>
           <div
-            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+            className='card w-60 md:w-[450px] h-80 
            md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>
@@ -66,7 +66,7 @@ export default function About() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+            className='card w-60 md:w-[450px] h-80 
            md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>
@@ -81,7 +81,7 @@ export default function About() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+            className='card w-60 md:w-[450px] h-80 
            md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>

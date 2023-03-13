@@ -1,7 +1,7 @@
 import Resources from "@/components/Footer";
 export default function Resource() {
   return (
-    <div className='w-full md:w-1/2 card2 text-white flex flex-col justify-around items-center p-4 md:p-8 gap-2 '>
+    <div className='w-full md:w-1/2 card text-white flex flex-col justify-around items-center p-4 md:p-8 gap-2 '>
       <div className='flex flex-col items-start gap-4 w-full '>
         <div className=' w-full'>
           <h1 className='text-2xl lg:text-4x font-bold mb-4'>Resources</h1>
