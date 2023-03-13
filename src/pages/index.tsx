@@ -17,8 +17,6 @@ import Footer from "@/components/Footer";
 import TimeLine from "@/components/TimeLine";
 import Layout from "@/components/Layout";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <Layout>
