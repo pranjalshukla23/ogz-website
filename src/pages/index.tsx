@@ -24,16 +24,16 @@ export default function Home() {
     <Layout>
       <div className='flex flex-col justify-center items-center'>
         <Hero />
-        {/* <Exchange /> */}
-        {/* <PartnerSlider /> */}
-        {/* <Services /> */}
-        {/* <Statistics /> */}
-        {/* <Community /> */}
-        {/* <About /> */}
-        {/* <Security /> */}
-        {/* <TimeLine /> */}
-        {/* <Membership /> */}
-        {/* <Footer /> */}
+        <Exchange />
+        <PartnerSlider />
+        <Services />
+        <Statistics />
+        <Community />
+        <About />
+        <Security />
+        <TimeLine />
+        <Membership />
+        <Footer />
       </div>
     </Layout>
   );

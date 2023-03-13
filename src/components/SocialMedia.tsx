@@ -3,16 +3,16 @@ import Image from "next/image";
 
 export default function SocialMedia() {
   return (
-    <div className='w-full md:w-1/2 hero flex flex-col justify-center md:justify-start items-center gap-8 p-8'>
+    <div className='w-full md:w-3/4 card2 flex flex-col justify-center md:justify-start items-center gap-8 p-3 md:p-8'>
       {/* gang */}
-      <div className='flex flex-col md:flex-row justify-center md:justify-around items-start md:items-center  gap-6 p-4 bg-creamy w-full'>
+      <div className='flex flex-col md:flex-row justify-center md:justify-around items-start md:items-center  gap-6 p-4 card w-full'>
         <h1 className='text-lg font-bold'>Join our gang</h1>
-        <button className='btn p-2 md:p-4'>
+        <button className='btn p-2 md:p-2 w-52'>
           Join our Telegram <FaTelegramPlane className='inline' />
         </button>
       </div>
       {/* contracts */}
-      <div className='w-full flex flex-col justify-center md:justify-between items-start  gap-6 p-4 bg-creamy'>
+      <div className='w-full flex flex-col justify-center md:justify-between items-start  gap-6 p-4 card'>
         <h1 className='text-md font-bold'>Contracts</h1>
         <div className='flex flex-col md:flex-row justify-center md:justify-between items-start md:items-center gap-4'>
           <div className=' flex justify-between items-center gap-4'>
@@ -37,7 +37,7 @@ export default function SocialMedia() {
       </div>
 
       {/* social media */}
-      <div className='w-full flex flex-col justify-center md:justify-between items-start  gap-6 p-4 bg-creamy'>
+      <div className='w-full flex flex-col justify-center md:justify-between items-start  gap-6 p-4 card'>
         <h1 className='text-md font-bold'>Social Media</h1>
         <div className='flex flex-row justify-between items-center gap-4'>
           <Image
@@ -45,21 +45,21 @@ export default function SocialMedia() {
             alt=''
             width={60}
             height={40}
-            className='p-4 bg-creamy rounded'
+            className='p-4 bg-bgBrown rounded shadow-lg'
           />
           <Image
             src='/images/twitter.svg'
             alt=''
             width={60}
             height={40}
-            className='p-4 bg-creamy rounded'
+            className='p-4 bg-bgBrown rounded shadow-lg'
           />
           <Image
             src='/images/Facebook.svg'
             alt=''
             width={60}
             height={40}
-            className='p-4 bg-creamy rounded'
+            className='p-4 bg-bgBrown rounded shadow-lg'
           />
         </div>
       </div>

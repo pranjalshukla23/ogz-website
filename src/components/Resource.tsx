@@ -1,12 +1,12 @@
 import Resources from "@/components/Footer";
 export default function Resource() {
   return (
-    <div className='w-full md:w-1/2 hero text-white flex flex-col justify-between items-start p-4 md:p-8 gap-2'>
-      <div className='flex flex-col gap-4  w-full p-8'>
-        <h1 className='text-2xl lg:text-4x font-bold'>Resources</h1>
+    <div className='w-full md:w-1/2 card2 text-white flex flex-col justify-around items-center p-4 md:p-8 gap-2 '>
+      <div className='flex flex-col items-start gap-4 w-full '>
         <div className=' w-full'>
+          <h1 className='text-2xl lg:text-4x font-bold mb-4'>Resources</h1>
           {/* left side links */}
-          <div className='flex flex-col md:flex-row gap-8 md:justify-between text-xl'>
+          <div className='flex flex-col md:flex-row gap-8 justify-between text-xl '>
             <ul className=' text-gray-400'>
               <li>Bridge</li>
               <li>White paper</li>
@@ -25,9 +25,9 @@ export default function Resource() {
         </div>
       </div>
 
-      <div className='flex flex-col gap-4  w-full'>
+      <div className='flex flex-col items-start gap-4 w-full '>
         <h1 className='text-lg font-bold '>Feedback and Inquiries</h1>
-        <button className='btn w-full md:w-1/2 '>Contact us</button>
+        <button className='btn w-full md:w-3/4 '>Contact us</button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { FaShareSquare } from "react-icons/fa";
 
 export default function Security() {
   return (
-    <div className='hero flex flex-col justify-start items-center w-11/12 md:flex-row-reverse md:justify-between mx-auto mb-24 gap-12 md:gap-2 pb-4 md:pb-2 shadow-2xl border-2 border-zinc-800'>
+    <div className='card2 flex flex-col justify-start items-center w-4/5 md:flex-row-reverse md:justify-between mx-auto mb-24 gap-12 md:gap-2 pb-4 md:pb-2 shadow-3xl rounded-md'>
       {/* image container */}
       <div className='flex justify-center w-full md:w-1/2 h-52 md:h-96  relative'>
         {/* image will cover the entire container */}
@@ -20,7 +20,7 @@ export default function Security() {
           className=' w-3/4 md:w-2/3 flex flex-col 
          items-start justify-start md:justify-center gap-4'
         >
-          <h1 className='text-2xl lg:text-4xl text-orange-400 font-bold'>
+          <h1 className='text-2xl lg:text-4xl text-orangeLight font-bold'>
             Security - OGZ Audits
           </h1>
           <p className='text-start md:w-full'>

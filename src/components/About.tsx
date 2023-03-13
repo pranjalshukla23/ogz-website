@@ -31,22 +31,22 @@ export default function About() {
   }, [width, height]);
 
   return (
-    <div className='w-11/12 mx-auto text-orange-400 p-2 my-24 '>
+    <div className='w-4/5 mx-auto text-orange-400 p-2 my-24 text-orangeLight'>
       <h3>About</h3>
-      <h1 className='text-2xl md:text-3xl font-bold'>OGz Statistics</h1>
+      <h1 className='text-2xl md:text-2xl font-bold mb-6'>OGz Statistics</h1>
 
       <Swiper
         id='swiper-color'
         slidesPerView={2}
-        spaceBetween={width < 768 ? 220 : width < 1024 ? 200 : 100}
+        spaceBetween={width < 1024 ? 350 : 100}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
         className='mySwiper'
       >
         <SwiperSlide>
           <div
-            className='hero3 w-60 md:w-[450px] h-80 
-           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl border-2 border-zinc-800'
+            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>
               Built on ETH and BSC
@@ -66,8 +66,8 @@ export default function About() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='hero3 w-60 md:w-[450px] h-80 
-            md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl border-2 border-zinc-800'
+            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>
             <h3>Total Supply: 10,000,000,000,000</h3>
@@ -81,8 +81,8 @@ export default function About() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='hero3 w-60 md:w-[450px] h-80 
-            md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl border-2 border-zinc-800'
+            className='bg-bgBrown4 w-60 md:w-[450px] h-80 
+           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>
             <h3>Total Supply: 10,000,000,000,000</h3>

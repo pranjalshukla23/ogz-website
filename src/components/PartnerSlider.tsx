@@ -45,7 +45,7 @@ export default function PartnerSlider() {
   }, [width, height]);
 
   return (
-    <div className='relative w-11/12 mx-auto mb-24  p-8'>
+    <div className='relative w-4/5  mb-24  p-8'>
       <Slider {...settings} className='px-4' ref={slider}>
         <div>
           <Image src='/images/mtv.svg' alt='mtv' width='100' height='400' />
@@ -72,13 +72,13 @@ export default function PartnerSlider() {
         </div>
       </Slider>
       <button
-        className='absolute left-0 top-8 -translate-x-3 bg-bgBrown rounded'
+        className='absolute left-0 top-8 -translate-x-3 bg-bgBrown rounded-full'
         onClick={() => slider?.current?.slickPrev()}
       >
         <Image src='/images/left-arrow.svg' alt='left' width={50} height={50} />
       </button>
       <button
-        className='absolute right-0 top-8 translate-x-3 bg-bgBrown rounded'
+        className='absolute right-0 top-8 translate-x-3 bg-bgBrown rounded-full'
         onClick={() => slider?.current?.slickPrev()}
       >
         <Image

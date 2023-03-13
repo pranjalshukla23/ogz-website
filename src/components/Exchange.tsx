@@ -11,7 +11,7 @@ export default function Exchange() {
     primary: "#FFF",
     secondary: "#A9A9A9",
     interactive: "#000",
-    container: "rgba(255, 255, 255, 0.04)",
+    container: "#160B0A",
     module: "rgba(217, 217, 217, 0.04)",
     accent: "#E7862E",
     outline: "#CC1",
@@ -21,14 +21,14 @@ export default function Exchange() {
   };
 
   return (
-    <div className='flex flex-col-reverse md:flex-row justify-start items-center mx-auto mb-12 w-11/12  gap-6 md:gap-2'>
+    <div className='flex flex-col-reverse md:flex-row justify-start md:justify-between items-center mb-12 w-4/5  gap-6 md:gap-6'>
       {/* exchange form */}
-      <div className='flex justify-start items-center w-full md:w-1/2 h-full'>
-        <SwapWidget theme={theme} />
-      </div>
+
+      <SwapWidget theme={theme} width={200} />
+
       {/* right side  */}
-      <div className='w-full md:w-1/2 flex flex-col justify-center items-start md:items-start gap-y-4 '>
-        <h1 className='text-2xl md:text-2xl text-orange-500 font-bold leading-wide tracking-wide'>
+      <div className='flex flex-col justify-start items-start gap-4 p-4 w-full md:w-2/3'>
+        <h1 className='text-2xl md:text-3xl text-orange-500 font-bold leading-wide tracking-wide text-orangeLight'>
           Buy some OGZ coin right now
         </h1>
         <p className='w-full md:w-3/4 text-start'>
