@@ -25,8 +25,8 @@ export default function Statistics() {
 
       <Swiper
         id='swiper-color'
-        slidesPerView={width < 1024 ? 1.5 : 2.5}
-        spaceBetween={"auto"}
+        slidesPerView={width < 1440 ? 1.4 : 2.5}
+        spaceBetween={width < 1440 ? 40 : ""}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
         className='mySwiper my-8'
