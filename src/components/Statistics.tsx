@@ -42,7 +42,7 @@ export default function Statistics() {
                 src='/images/update1.svg'
                 alt='update1'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
@@ -69,7 +69,7 @@ export default function Statistics() {
                 src='/images/update2.svg'
                 alt='update1'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
@@ -96,7 +96,7 @@ export default function Statistics() {
                 src='/images/update3.svg'
                 alt='update3'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
@@ -123,7 +123,7 @@ export default function Statistics() {
                 src='/images/update1.svg'
                 alt='update1'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
@@ -150,7 +150,7 @@ export default function Statistics() {
                 src='/images/update1.svg'
                 alt='update1'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
@@ -177,7 +177,7 @@ export default function Statistics() {
                 src='/images/update1.svg'
                 alt='update1'
                 fill
-                className='object-cover'
+                className='object-cover rounded-tl-lg'
               ></Image>
             </div>
             {/* info container */}
