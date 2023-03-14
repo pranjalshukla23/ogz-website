@@ -25,8 +25,8 @@ export default function Statistics() {
 
       <Swiper
         id='swiper-color'
-        slidesPerView={width < 1440 ? 1.4 : 2.5}
-        spaceBetween={width < 1440 ? 40 : ""}
+        slidesPerView={width < 1440 ? 1.5 : 2.5}
+        spaceBetween={width < 1440 ? 40 : 0}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
         className='mySwiper my-8'
@@ -48,7 +48,7 @@ export default function Statistics() {
             {/* info container */}
             <div className='flex flex-col justify-center md:justify-center items-start md:items-start gap-0 text-slate-200 px-4 w-full md:w-1/2 h-1/2 md:h-full  text-sm'>
               <h3>2023-12-4</h3>
-              <h1 className='font-bold text-slate-100  base-normal mb-2'>
+              <h1 className='font-bold text-slate-100  base-normal'>
                 Ogz helps schools in Chad
               </h1>
               <p className='text-sm'>
