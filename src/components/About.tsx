@@ -37,11 +37,11 @@ export default function About() {
 
       <Swiper
         id='swiper-color'
-        slidesPerView={2}
-        spaceBetween={width < 1024 ? 350 : 100}
+        slidesPerView={width < 1440 ? 1.5 : 2.2}
+        spaceBetween={width < 1440 ? 40 : 0}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
-        className='mySwiper'
+        className='mySwiper my-8'
       >
         <SwiperSlide>
           <div
@@ -94,6 +94,8 @@ export default function About() {
             </button>
           </div>
         </SwiperSlide>
+        {/* <div className='blurDivLeft'></div> */}
+        <div className='blurDivRight'></div>
       </Swiper>
     </div>
   );

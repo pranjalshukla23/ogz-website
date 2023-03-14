@@ -64,13 +64,16 @@ body {
 
 #swiper-color {
   --swiper-navigation-size: 25px;
+  position: relative;
 }
 
 #swiper-color .swiper-button-next,
 .swiper-button-prev {
+  position: absolute;
   color: white;
   background-color: #331d16;
   border-radius: 50%;
+  right: 0;
   font-size: 8px;
   padding: 30px;
   height: 4px;
@@ -78,6 +81,7 @@ body {
 }
 #swiper-color .swiper-button-prev {
   color: white;
+  left: 0;
 }
 
 #swiper-replace .swiper-button-next::after {
@@ -89,4 +93,58 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blurDivLeft {
+  background: linear-gradient(270deg, rgba(12, 1, 0, 0) 0%, black 100%);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 218px;
+}
+
+.blurDivLeft::before {
+  background: black;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -150px;
+  z-index: 1;
+  top: 0;
+  width: 133px;
+  height: 335px;
+}
+
+.blurDivRight {
+  background: linear-gradient(270deg, black 0%, rgba(12, 1, 0, 0) 100%);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 218px;
+}
+
+.blurDivRight::after {
+  background: black;
+  content: "";
+  display: block;
+  position: absolute;
+  right: -100px;
+  z-index: 1;
+  top: 0;
+  width: 133px;
+  height: 335px;
+}
+
+.blurDivRight2 {
+  background: linear-gradient(270deg, #160b0a 0%, rgba(22, 11, 10, 0) 100%);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  width: 160px;
 }

@@ -18,7 +18,7 @@ export default function Community() {
   const [space, setSpace] = useState(3);
 
   return (
-    <div className='card w-4/5 mx-auto text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 p-4  text-orangeLight shadow-2xl'>
+    <div className='card w-4/5  text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 text-orangeLight shadow-2xl '>
       <h1 className='text-2xl md:text-3xl font-bold w-3/4 md:w-full p-6'>
         Join the OGZ community
       </h1>
@@ -93,27 +93,29 @@ export default function Community() {
       </div>
 
       {/* desktop */}
-      <div className='hidden md:block  w-full p-6'>
+      <div className='hidden md:block  w-full '>
         <Swiper
           id='swiper-color'
-          slidesPerView={2}
-          spaceBetween={width < 1024 ? 350 : 100}
+          slidesPerView={width < 1440 ? 1.5 : 2.2}
+          spaceBetween={width < 1440 ? 40 : 0}
           navigation={width < 768 ? false : true}
           modules={[Pagination, Navigation]}
-          className='mySwiper'
+          className='mySwiper my-8'
         >
           <SwiperSlide>
             {/* item1 */}
             <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8 transform'>
               {/* left side */}
-              <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
+              <div
+                className='flex justify-center items-start translate-y-4 -translate-x-12 
+               w-32 h-[100px] relative'
+              >
                 {/* image container */}
                 <Image
                   src='/images/twitter.svg'
                   alt='twitter'
-                  width={100}
-                  height={200}
-                  className='bg-creamy p-4 rounded'
+                  fill
+                  className='bg-creamy p-8 rounded-lg'
                 />
               </div>
               {/* right side */}
@@ -130,14 +132,16 @@ export default function Community() {
             {/* item2 */}
             <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8'>
               {/* left side */}
-              <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
+              <div
+                className='flex justify-center items-start translate-y-4 -translate-x-12 
+               w-32 h-[100px] relative'
+              >
                 {/* image container */}
                 <Image
                   src='/images/insta.svg'
                   alt='twitter'
-                  width={100}
-                  height={200}
-                  className='bg-creamy p-4 rounded'
+                  fill
+                  className='bg-creamy p-8 rounded-lg'
                 />
               </div>
               {/* right side */}
@@ -154,14 +158,16 @@ export default function Community() {
             {/* item1 */}
             <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8'>
               {/* left side */}
-              <div className='flex justify-center items-start translate-y-4 -translate-x-12 '>
+              <div
+                className='flex justify-center items-start translate-y-4 -translate-x-12 
+               w-32 h-[100px] relative'
+              >
                 {/* image container */}
                 <Image
                   src='/images/youtube.svg'
                   alt='twitter'
-                  width={100}
-                  height={200}
-                  className='bg-creamy p-4 rounded'
+                  fill
+                  className='bg-creamy p-8 rounded-lg'
                 />
               </div>
               {/* right side */}
@@ -173,6 +179,7 @@ export default function Community() {
               </div>
             </div>
           </SwiperSlide>
+          <div className='blurDivRight2'></div>
         </Swiper>
       </div>
     </div>

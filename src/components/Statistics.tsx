@@ -25,7 +25,7 @@ export default function Statistics() {
 
       <Swiper
         id='swiper-color'
-        slidesPerView={width < 1440 ? 1.5 : 2.5}
+        slidesPerView={width < 1440 ? 1.5 : 2.7}
         spaceBetween={width < 1440 ? 40 : 0}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
@@ -34,7 +34,7 @@ export default function Statistics() {
         <SwiperSlide>
           <div
             className='w-48 md:w-[420px] h-[387px] 
-           md:h-[187px] flex flex-col md:flex-row gap-4 shadow-2xl card rounded-lg'
+           md:h-[187px] flex flex-col md:flex-row gap-2 shadow-2xl card rounded-lg'
           >
             {/* image container */}
             <div className='image-container relative w-full h-1/2 md:h-full md:w-6/12'>
@@ -193,6 +193,8 @@ export default function Statistics() {
             </div>
           </div>
         </SwiperSlide>
+        {/* <div className='blurDivLeft'></div> */}
+        <div className='blurDivRight'></div>
       </Swiper>
     </div>
   );
