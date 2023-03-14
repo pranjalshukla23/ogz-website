@@ -3,9 +3,9 @@ import { FaShareSquare } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <div className='grid grid-cols-1 gap-12 md:gap-8 md:grid-cols-2  justify-center items-center w-4/5 p-2 md:p-8'>
+    <div className='grid grid-cols-1 gap-8 md:grid-cols-2  justify-center items-center w-4/5 p-2 md:p-8'>
       {/* item 1 */}
-      <div className=' flex flex-col justify-start items-start gap-4'>
+      <div className=' flex flex-col justify-start items-start gap-4 mb-24 md:mb-0'>
         <h1 className='text-2xl md:text-4xl text-orangeLight font-bold'>
           Our Core Values
         </h1>
@@ -19,13 +19,13 @@ export default function Services() {
       </div>
 
       {/* item 2 */}
-      <div className='gridItem flex flex-col justify-start items-start gap-4 p-8'>
-        <div className='bg-creamy rounded-md p-4 -translate-y-12'>
+      <div className='gridItem flex flex-col justify-start items-start gap-4 -translate-y-0 md:-translate-y-20 card2'>
+        <div className='bg-creamy rounded-md p-4 -translate-y-6 w-16 h-16 md:w-24 md:h-24 flex justify-center '>
           <Image
             src='/images/personIcon.svg'
             alt='person'
-            width='50'
-            height='50'
+            width={30}
+            height={40}
           />
         </div>
 
@@ -44,13 +44,13 @@ export default function Services() {
       </div>
 
       {/* item 3 */}
-      <div className='gridItem flex flex-col justify-start items-start gap-4'>
-        <div className='bg-creamy rounded-md p-4  -translate-y-6'>
+      <div className='gridItem flex flex-col justify-start items-start gap-4 card2'>
+        <div className='bg-creamy rounded-md p-4 -translate-y-6 w-16 h-16 md:w-24 md:h-24 flex justify-center '>
           <Image
             src='/images/utilityIcon.svg'
             alt='utility'
-            width='50'
-            height='50'
+            width={30}
+            height={40}
           />
         </div>
 
@@ -68,13 +68,13 @@ export default function Services() {
         </button>
       </div>
       {/* item 4 */}
-      <div className='gridItem flex flex-col justify-start items-start gap-4'>
-        <div className='bg-creamy rounded-md p-4  -translate-y-6'>
+      <div className='gridItem flex flex-col justify-start items-start gap-4 card2'>
+        <div className='bg-creamy rounded-md p-4 -translate-y-6 w-16 h-16 md:w-24 md:h-24 flex justify-center '>
           <Image
             src='/images/loveIcon.svg'
             alt='utility'
-            width='50'
-            height='50'
+            width={30}
+            height={40}
           />
         </div>
 

@@ -45,7 +45,7 @@ export default function PartnerSlider() {
   }, [width, height]);
 
   return (
-    <div className='relative w-4/5  mb-24  p-8'>
+    <div className='card relative w-4/5  mb-40 p-8'>
       <Slider {...settings} className='px-4' ref={slider}>
         <div>
           <Image src='/images/mtv.svg' alt='mtv' width='100' height='400' />
@@ -88,8 +88,8 @@ export default function PartnerSlider() {
           height={50}
         />
       </button>
-      <div className=' flex justify-center p-8'>
-        <button className='btn mx-auto bg-bgBrown text-gray-400 w-52'>
+      <div className='absolute flex items-start w-full mt-4'>
+        <button className='btn mx-auto bg-bgBrown text-gray-400 w-52 '>
           View All
         </button>
       </div>
