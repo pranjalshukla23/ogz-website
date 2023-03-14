@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className='hero flex flex-col justify-start items-center w-4/5 md:flex-row-reverse md:justify-between my-8 gap-12 md:gap-2 pb-4'>
+    <div className='hero flex flex-col justify-start items-center w-4/5 md:flex-row-reverse md:justify-between my-8 gap-12 md:gap-2 pb-4 mb-24'>
       {/* image container */}
       <div className='flex justify-center w-full md:w-1/2 h-52 md:h-96 relative'>
         {/* image will cover the entire container */}

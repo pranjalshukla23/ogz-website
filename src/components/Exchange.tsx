@@ -23,7 +23,7 @@ const theme: Theme = {
 
 export default function Exchange() {
   return (
-    <div className='flex flex-col-reverse md:flex-row justify-start md:justify-between items-center mb-12 w-4/5  gap-6 md:gap-6 '>
+    <div className='flex flex-col-reverse md:flex-row justify-start md:justify-between items-center mb-24 w-4/5  gap-6 md:gap-6 '>
       {/* exchange form */}
       <SwapWidget theme={theme} width={200} />
 

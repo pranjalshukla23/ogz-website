@@ -35,7 +35,7 @@ body {
 .gridItem {
   background: rgba(255, 255, 255, 0.04);
   border-radius: 5%;
-  padding: 10px 40px;
+  padding: 10px 40px 0px 40px;
   width: 452px;
   height: 379px;
 }
