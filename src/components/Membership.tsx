@@ -15,14 +15,14 @@ export default function Membership() {
       {/* text container */}
       <div className='flex flex-col md:flex-row justify-center items-start md:items-center md:justify-evenly w-full gap-4'>
         <div className='info '>
-          <h1 className='text-2xl lg:text-3xl text-orangeLight font-extrabold mb-4'>
+          <h1 className='text-2xl lg:text-4xl text-orangeLight font-extrabold mb-4'>
             Become an OG member
           </h1>
-          <p className='text-start md:w-full'>
+          <p className='text-start md:w-full text-normal'>
             Discover your preferred way to buy OGZ
           </p>
         </div>
-        <button className='btn w-52 p-4'>Buy OGZ</button>
+        <button className='btn w-52 p-4 text-sm'>Buy OGZ</button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { FaShareSquare } from "react-icons/fa";
 
 export default function Services() {
   return (
-    <div className='grid grid-cols-1 gap-4 md:grid-cols-2 justify-center items-center w-4/5  md:pl-20 mb-24'>
+    <div className='grid grid-cols-1 gap-8 md:gap-4 md:grid-cols-2 justify-center items-center w-4/5  md:pl-20 mb-24 p-2'>
       {/* item 1 */}
       <div className=' flex flex-col justify-start items-start gap-4 mb-24 md:mb-0'>
         <h1 className='text-2xl md:text-3xl text-orangeLight font-bold'>

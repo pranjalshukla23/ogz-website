@@ -18,7 +18,7 @@ export default function Community() {
   const [space, setSpace] = useState(3);
 
   return (
-    <div className='card w-4/5  text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 text-orangeLight shadow-2xl '>
+    <div className='card w-4/5  text-orange-400 my-24 flex flex-col justify-start items-start  gap-4 text-orangeLight shadow-2xl rounded-md'>
       <h1 className='text-2xl md:text-3xl font-bold w-3/4 md:w-full p-6'>
         Join the OGZ community
       </h1>
@@ -26,7 +26,7 @@ export default function Community() {
       {/* mobile  */}
       <div className='flex md:hidden flex-col justify-between gap-4  w-full'>
         {/* item1 */}
-        <div className='card2 flex flex-row translate-x-6 h-40 gap-4 shadow-2xl'>
+        <div className='card2 flex flex-row translate-x-6 h-40 gap-4 shadow-2xl rounded-md'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -48,7 +48,7 @@ export default function Community() {
         </div>
 
         {/* item2 */}
-        <div className='card2 shadow-2xl flex flex-row translate-x-6 h-40 gap-4'>
+        <div className='card2 shadow-2xl flex flex-row translate-x-6 h-40 gap-4 rounded-md'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -70,7 +70,7 @@ export default function Community() {
         </div>
 
         {/* item3 */}
-        <div className='card2 shadow-2xl  flex flex-row translate-x-6 h-40 gap-4'>
+        <div className='card2 shadow-2xl  flex flex-row translate-x-6 h-40 gap-4 rounded-md'>
           {/* left side */}
           <div className='flex justify-center items-start translate-y-4 -translate-x-6'>
             {/* image container */}
@@ -100,11 +100,11 @@ export default function Community() {
           spaceBetween={width < 1440 ? 40 : 0}
           navigation={width < 768 ? false : true}
           modules={[Pagination, Navigation]}
-          className='mySwiper my-8'
+          className='mySwiper my-4'
         >
           <SwiperSlide>
             {/* item1 */}
-            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8 transform'>
+            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8 transform pl-6 rounded-md'>
               {/* left side */}
               <div
                 className='flex justify-center items-start translate-y-4 -translate-x-12 
@@ -130,7 +130,7 @@ export default function Community() {
 
           <SwiperSlide>
             {/* item2 */}
-            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8'>
+            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8 rounded-md'>
               {/* left side */}
               <div
                 className='flex justify-center items-start translate-y-4 -translate-x-12 
@@ -155,8 +155,8 @@ export default function Community() {
           </SwiperSlide>
 
           <SwiperSlide>
-            {/* item1 */}
-            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8'>
+            {/* item3 */}
+            <div className='card2 shadow-2xl  flex flex-row w-[500px] h-36 gap-8 ml-8 rounded-md'>
               {/* left side */}
               <div
                 className='flex justify-center items-start translate-y-4 -translate-x-12 

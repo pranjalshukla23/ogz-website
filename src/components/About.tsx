@@ -37,43 +37,46 @@ export default function About() {
 
       <Swiper
         id='swiper-color'
-        slidesPerView={width < 1440 ? 1.5 : 2.2}
-        spaceBetween={width < 1440 ? 40 : 0}
+        slidesPerView={width < 1440 ? 1.5 : 2.5}
+        spaceBetween={width < 1440 ? 40 : 10}
         navigation={width < 768 ? false : true}
         modules={[Pagination, Navigation]}
         className='mySwiper my-8'
       >
         <SwiperSlide>
           <div
-            className='card w-60 md:w-[450px] h-80 
-           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
+            className='card w-60 md:w-[464px] h-80 
+           md:h-[241px] flex flex-col justify-center items-center md:items-start gap-6  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>
               Built on ETH and BSC
             </h1>
-            <h3>OGz contract addresses:</h3>
+            <h3 className='text-sm'>OGz contract addresses:</h3>
             <div className=' flex flex-col md:flex-row gap-4'>
-              <button className='btn text-center'>
+              <button className='btn text-center text-sm'>
                 Etherscan (ETH) <FaShareSquare className='inline' />
               </button>
-              <button className='btn text-center'>
+              <button className='btn text-center text-sm'>
                 BscScan (BSC) <FaShareSquare className='inline' />
               </button>
             </div>
 
-            <p>Circulating Supply: 118,000,000</p>
+            <p className='text-sm'>Circulating Supply: 118,000,000</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='card w-60 md:w-[450px] h-80 
-           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
+            className='card w-60 md:w-[464px] h-80 
+           md:h-[241px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>
-            <h3>Total Supply: 10,000,000,000,000</h3>
-            <p>0.3% buy/sell tax on DEX</p>
-            <p>25% of OGz Locker fees burned</p>
-            <button className='btn text-center'>
+            <ul>
+              <li className='text-sm pb-2'>Total Supply: 10,000,000,000,000</li>
+              <li className='text-sm pb-2'>0.3% buy/sell tax on DEX</li>
+              <li className='text-sm pb-2'>25% of OGz Locker fees burned</li>
+            </ul>
+
+            <button className='btn text-center text-sm'>
               Operations and Funding
               <FaShareSquare className='inline' />
             </button>
@@ -81,14 +84,17 @@ export default function About() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className='card w-60 md:w-[450px] h-80 
-           md:h-[250px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
+            className='card w-60 md:w-[464px] h-80 
+           md:h-[241px] flex flex-col justify-center items-center md:items-start gap-4  text-white text-xs md:text-md p-4 shadow-2xl rounded-lg'
           >
             <h1 className='text-lg md:text-xl font-bold'>Tokenomics</h1>
-            <h3>Total Supply: 10,000,000,000,000</h3>
-            <p>0.3% buy/sell tax on DEX</p>
-            <p>25% of OGz Locker fees burned</p>
-            <button className='btn text-center break-keep'>
+            <ul>
+              <li className='text-sm pb-2'>Total Supply: 10,000,000,000,000</li>
+              <li className='text-sm pb-2'>0.3% buy/sell tax on DEX</li>
+              <li className='text-sm pb-2'>25% of OGz Locker fees burned</li>
+            </ul>
+
+            <button className='btn text-center text-sm'>
               Operations and Funding
               <FaShareSquare className='inline' />
             </button>
